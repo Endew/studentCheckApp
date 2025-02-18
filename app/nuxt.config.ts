@@ -71,10 +71,10 @@ export default defineNuxtConfig({
   },
 
   devServer: {
-    https: {
-      key: process.env.NUXT_SSL_KEY || './ssl/key.pem',
-      cert: process.env.NUXT_SSL_CERT || './ssl/cert.pem'
-    },
+    // https: {
+    //   key: process.env.NUXT_SSL_KEY || './ssl/key.pem',
+    //   cert: process.env.NUXT_SSL_CERT || './ssl/cert.pem'
+    // },
     host: '0.0.0.0',
     port: Number(process.env.NUXT_PORT) || 3002
   },

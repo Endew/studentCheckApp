@@ -151,7 +151,7 @@ const router = useRouter()
 const list = ref([]); // Array สำหรับเก็บรายชื่อจากเซิร์ฟเวอร์
 const selectedDay = ref('')
 const previousPage = ref('')
-const CheckPicture = ref('')
+const CheckPicture = ref('default.png')
 
 const profileImageUrl = ref('') // URL สำหรับรูปภาพโปรไฟล์
 const dialog = ref(false) // เปิด/ปิด dialog
